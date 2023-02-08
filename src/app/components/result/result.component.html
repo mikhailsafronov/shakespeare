@@ -1,0 +1,14 @@
+<ng-container
+  *ngIf="result.length > 0; then showResult; else empty"
+></ng-container>
+
+<ng-template #showResult>
+  <div *ngFor="let item of result">
+    <p style="font-size: 2rem">{{ item.id }}</p>
+    <div style="margin-top: 10px">{{ item | json }}</div>
+  </div>
+</ng-template>
+
+<ng-template #empty>
+  <span>load page first</span>
+</ng-template>

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "pic": "assets/shakespeare.jpg",
+    "title": {
+      "text": "Shall I compare 5 to a summer’s day?",
+      "style": {
+        "underscore": null,
+        "showIndex": false,
+        "fontSize": "20px",
+        "color": "green"
+      }
+    },
+    "body": {
+      "text": "Shall I compare thee to a summer’s day?\nThou art more lovely and more temperate.\nRough winds do shake the darling buds of May,\nAnd summer’s lease hath all too short a date.\nSometime too hot the eye of heaven shines,\nAnd often is his gold complexion dimmed;\nAnd every fair from fair sometime declines,\nBy chance, or nature’s changing course, untrimmed;\nBut thy eternal summer shall not fade,\nNor lose possession of that fair thou ow’st,\nNor shall death brag thou wand'rest in his shade,\nWhen in eternal lines to Time thou grow'st.\nSo long as men can breathe, or eyes can see,\nSo long lives this, and this gives life to thee.",
+      "style": {
+        "italic": false,
+        "fontSize": "14px",
+        "color": "grey"
+      }
+    }
+  },
+  {
+    "id": "2",
+    "pic": null,
+    "title": {
+      "text": "When to the Sessions of Sweet Silent Thought",
+      "style": {
+        "underscore": "underline",
+        "showIndex": true,
+        "fontSize": "14px",
+        "color": "grey"
+      }
+    },
+    "body": {
+      "text": "When to the sessions of sweet silent thought\nI summon up remembrance of things past,\nI sigh the lack of many a thing I sought,\nAnd with old woes new wail my dear times’ waste:\nThen can I drown an eye, unus’d to flow,\nFor precious friends hid in death’s dateless night.\nAnd weep afresh love’s long-since cancell’d woe,\nAnd moan the expense of many a vanish’d sight.\nThen can I grieve at grievance foregone,\nAnd heavily from woe to woe tell o’er\nThe sad account of fore-bemoaned moan,\nWhich I new pay as if not paid before.\nBut if the while I think on thee, dear friend,\nAll losses are restor’d, and sorrows end.",
+      "style": {
+        "italic": false,
+        "fontSize": "10px",
+        "color": "grey"
+      }
+    }
+  },
+  {
+    "id": "3",
+    "pic": null,
+    "title": {
+      "text": "When to the Sessions of Sweet Silent Thought",
+      "style": {
+        "underscore": "underline",
+        "showIndex": true,
+        "fontSize": "14px",
+        "color": "lightgreen"
+      }
+    },
+    "body": {
+      "text": "When to the sessions of sweet silent thought\nI summon up remembrance of things past,\nI sigh the lack of many a thing I sought,\nAnd with old woes new wail my dear times’ waste:\nThen can I drown an eye, unus’d to flow,\nFor precious friends hid in death’s dateless night.\nAnd weep afresh love’s long-since cancell’d woe,\nAnd moan the expense of many a vanish’d sight.\nThen can I grieve at grievance foregone,\nAnd heavily from woe to woe tell o’er\nThe sad account of fore-bemoaned moan,\nWhich I new pay as if not paid before.\nBut if the while I think on thee, dear friend,\nAll losses are restor’d, and sorrows end.",
+      "style": {
+        "italic": false,
+        "fontSize": "10px",
+        "color": "lightgreen"
+      }
+    }
+  },
+  {
+    "id": "4",
+    "pic": null,
+    "title": {
+      "text": "When to the Sessions of Sweet Silent Thought",
+      "style": {
+        "underscore": "underline",
+        "showIndex": true,
+        "fontSize": "14px",
+        "color": "red"
+      }
+    },
+    "body": {
+      "text": "When to the sessions of sweet silent thought\nI summon up remembrance of things past,\nI sigh the lack of many a thing I sought,\nAnd with old woes new wail my dear times’ waste:\nThen can I drown an eye, unus’d to flow,\nFor precious friends hid in death’s dateless night.\nAnd weep afresh love’s long-since cancell’d woe,\nAnd moan the expense of many a vanish’d sight.\nThen can I grieve at grievance foregone,\nAnd heavily from woe to woe tell o’er\nThe sad account of fore-bemoaned moan,\nWhich I new pay as if not paid before.\nBut if the while I think on thee, dear friend,\nAll losses are restor’d, and sorrows end.",
+      "style": {
+        "italic": false,
+        "fontSize": "10px",
+        "color": "red"
+      }
+    }
+  },
+  {
+    "id": "5",
+    "pic": null,
+    "title": {
+      "text": "When to the Sessions of Sweet Silent Thought",
+      "style": {
+        "underscore": "underline",
+        "showIndex": true,
+        "fontSize": "14px",
+        "color": "blue"
+      }
+    },
+    "body": {
+      "text": "When to the sessions of sweet silent thought\nI summon up remembrance of things past,\nI sigh the lack of many a thing I sought,\nAnd with old woes new wail my dear times’ waste:\nThen can I drown an eye, unus’d to flow,\nFor precious friends hid in death’s dateless night.\nAnd weep afresh love’s long-since cancell’d woe,\nAnd moan the expense of many a vanish’d sight.\nThen can I grieve at grievance foregone,\nAnd heavily from woe to woe tell o’er\nThe sad account of fore-bemoaned moan,\nWhich I new pay as if not paid before.\nBut if the while I think on thee, dear friend,\nAll losses are restor’d, and sorrows end.",
+      "style": {
+        "italic": false,
+        "fontSize": "10px",
+        "color": "blue"
+      }
+    }
+  }
+]

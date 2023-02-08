@@ -1,0 +1,84 @@
+button {
+  width: 100px;
+}
+button:hover,
+input[type="file"]:hover {
+  cursor: pointer;
+}
+
+p {
+  font-size: 2rem;
+}
+.component-container {
+  position: relative;
+  margin-top: 10px;
+}
+.controls-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 10;
+}
+.notification-container {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  justify-content: center;
+  .error {
+    color: tomato;
+  }
+}
+.canvas-container {
+  position: relative;
+  text-align: center;
+  height: 500px;
+  width: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  border: 1px solid #ccc;
+  margin: 0 auto;
+
+  .canvas {
+    border-radius: 4px;
+  }
+  .overlay {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 100%;
+    .overlay__image {
+      text-align: center;
+    }
+    .overlay__title {
+      padding: 30px 10px 0 10px;
+      flex-grow: 1;
+    }
+    .overlay__body {
+      white-space: pre-wrap;
+      padding: 30px;
+      text-align: start;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .canvas-container {
+    width: 400px;
+    margin: 0;
+  }
+  .controls-container {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}

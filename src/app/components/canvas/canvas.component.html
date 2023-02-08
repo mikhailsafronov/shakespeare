@@ -1,0 +1,39 @@
+<div class="component-container" fontZoom>
+  <div class="controls-container">
+    <button (click)="addText()">add text</button>
+    <button (click)="removeObject()">remove object</button>
+    <input type="file" id="file" accept="image/*" (change)="addImage($event)" />
+  </div>
+  <div class="notification-container" *ngIf="showError">
+    <span class="error">choose an object</span>
+  </div>
+  <div class="canvas-container">
+    <div class="overlay">
+      <div class="overlay__image" *ngIf="layer.pic">
+        <img [src]="layer.pic" width="100" height="100" />
+      </div>
+      <div
+        class="overlay__title"
+        [ngStyle]="{
+          color: layer?.title?.style?.color,
+          'text-decoration': layer?.title?.style?.underscore
+        }"
+      >
+        <span *ngIf="layer?.title?.style?.showIndex">{{ layer?.id }}</span>
+        {{ layer?.title?.text }}
+      </div>
+      <div
+        class="overlay__body"
+        [ngStyle]="{
+          color: layer?.body?.style?.color,
+          'text-decoration': layer?.body?.style?.underscore
+        }"
+      >
+        {{ layer?.body?.text }}
+      </div>
+    </div>
+    <div class="canvas">
+      <canvas [id]="layer?.id"></canvas>
+    </div>
+  </div>
+</div>
